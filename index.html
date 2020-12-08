@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Żłobek Fabryczka</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/ecd344741b.js" crossorigin="anonymous"></script>
@@ -16,17 +15,16 @@
 <body>
     <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container">
-            <a class="navbar-brand px-4" href="#"><i class="fab fa-deezer text-info pr-2"></i>Żłobek<span
+            <a class="navbar-brand px-4" href="/"><i class="fab fa-deezer text-info pr-2"></i>Żłobek<span
                     class="text-primary"> fabryczka</span></a>
-            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fas fa-bars px-4"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Strona główna <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#aboutus">O nas</a>
+                    <a class="nav-link active" href="/">Strona główna <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="services.html">oferta</a>
                     <a class="nav-link" href="gallery.html">galeria</a>
                     <a class="nav-link" href="schedule.html">rozkład dnia</a>
@@ -38,11 +36,13 @@
     </nav>
 
     <header>
+        
+            
         <section>
 
             <div class="container p-0">
                 <div class="hero-shadow"></div>
-                <div class="row m-0">
+                <div class="row m-0 p-0">
                     <div class="col-12 p-0">
                         <div class="tetris animate__animated animate__fadeIn animate__delay-1s animate__slow">
                             <div class="block1">
@@ -219,37 +219,77 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="jumbotron m-auto">
-                <div class="row text-center justify-content-center">
-                    <div class="col-md-4 col-xl-3">
-                        <div class="hero-box">
-                            <i class="fas fa-users"></i>
-                            <p class="description">Kameralna i przyjazna grupa, licząca do 19 dzieci</p>
+        </header>
+
+        <main>
+            <section class="p-5">
+                <div class="jumbotron m-auto">
+                    <div class="row text-center justify-content-center">
+                        <div class="col-md-4 col-xl-3">
+                            <div class="hero-box animate__animated animate__bounce">
+                                <i class="fas fa-users"></i>
+                                <p class="description">Kameralna i przyjazna grupa, licząca do 19 dzieci</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-xl-3">
-                        <div class="hero-box">
-                            <i class="far fa-clock"></i>
-                            <p class="description">Troskliwa opieka nad dziećmi do 10,5 h dziennie</p>
+                        <div class="col-md-4 col-xl-3">
+                            <div class="hero-box animate__animated animate__bounce animate__delay-1s">
+                                <i class="far fa-clock"></i>
+                                <p class="description">Troskliwa opieka nad dziećmi do 10,5 h dziennie</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-xl-3">
-                        <div class="hero-box">
-                            <i class="fas fa-graduation-cap"></i>
-                            <p class="description">Rozwój indywidualnych predyspozycji dziecka</p>
+                        <div class="col-md-4 col-xl-3">
+                            <div class="hero-box animate__animated animate__bounce animate__delay-2s">
+                                <i class="fas fa-graduation-cap"></i>
+                                <p class="description">Rozwój indywidualnych predyspozycji dziecka</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-xl-3">
-                        <div class="hero-box">
-                            <i class="fas fa-book"></i>
-                            <p class="description">Różnorodne metody pracy z zakresu pedagogiki</p>
+                        <div class="col-md-4 col-xl-3">
+                            <div class="hero-box animate__animated animate__bounce animate__delay-3s">
+                                <i class="fas fa-book"></i>
+                                <p class="description">Różnorodne metody pracy z zakresu pedagogiki</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </header>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="card-group">
+                        <div class="card">
+                          <img src="./img/kasia.jpg" class="card-img-top" alt="Katarzyna Urban">
+                          <div class="card-body">
+                            <h5 class="card-title fs-1">Katarzyna Urban</h5>
+                            <p class="card-text fs-4">Nauczyciel wychowania przedszkolnego, absolwentka Uniwersytetu Jagiellońskiego, kierunku pedagogika społeczna. Matka 4-letniego Antosia i 2,5-letniej Ali. Żona swojego męża. Nieustannie stara się odczytywać filozofię życiową swoich maluchów, uczy się od nich radości życia i prostoty w kontakcie z drugim człowiekiem. Posiada doświadczenie w pracy z dziećmi; kilkuletni nauczyciel wychowania przedszkolnego.</p>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="./img/ola.jpg" class="card-img-top" alt="Aleksandra Przęczek">
+                          <div class="card-body">
+                            <h5 class="card-title fs-1">Aleksandra Przęczek</h5>
+                            <p class="card-text fs-4">Nauczycielka wychowania przedszkolnego z 10 letnim doświadczeniem w pracy z dziećmi od 3 do 6 lat. Przez rok również animatorka podczas przyjęć urodzinowych. Ukończyłam wiele kursów, zarówno pod kątem muzycznym jak i plastycznym. Wciąż jednak poszukuję nowych inspiracji. Najwięcej radości daje mi zadowolenie dzieci. Wtedy wiem, że moja praca ma sens.</p>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="./img/smialek.jpg" class="card-img-top" alt="Aleksandra Śmiałek">
+                          <div class="card-body">
+                            <h5 class="card-title fs-1">Aleksandra Śmiałek</h5>
+                            <p class="card-text fs-4">z wykształcenia nauczyciel i pedagog szkolny oraz specjalny. Doświadczenie w pracy z dziećmi i młodzieżą zdobyła podczas studiów w ramach praktyk w wielu placówkach oświatowych oraz opiekuńczo – wychowawczych. Ponad roczna praca najpierw w charakterze opiekunki do dziecka, pozwoliła jej wytrenować cierpliwość.</p>
+                            <p class="card-text"></p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="bg-dark text-light">
+            <p class="py-5 px-3 mb-0 text-center">2020 &copy;  <a class="navbar-brand px-4" href="#"><i class="fab fa-deezer text-info pr-2"></i>Żłobek<span
+                class="text-primary"> fabryczka</span></a>
+            </p>
+        </footer>
 
 
 
@@ -265,12 +305,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 
 </html>

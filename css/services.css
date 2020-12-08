@@ -280,6 +280,19 @@ header {
     text-transform: uppercase;
 }
 
+.aboutus-img {
+    height: 70%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+.wrapper {
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* ----------------- */
 /*     CONTACT     */
 /* ----------------- */

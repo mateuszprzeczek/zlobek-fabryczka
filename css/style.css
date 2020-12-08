@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    @media screen and(max-width: 600px) {
+        overflow-x: hidden;
+    }
 }
 
 html {
@@ -10,7 +14,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(252, 250, 231, 1) 0%, rgba(252, 231, 244, 1) 100%);
 }
 
 /* ----------------- */
@@ -46,7 +50,7 @@ nav {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
     z-index: -1;
 }
 
@@ -90,7 +94,158 @@ header .container {
     background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
 }
 
-.hero-box {}
+.hero-box {
+    font-size: 1.4rem;
+    color: #010606;
+    transition: 0.3s;
+}
+
+.hero-box:hover {
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.hero-box i {
+    font-size: 3rem;
+    color: #3545D8;
+}
+
+.hero-box i.fa-clock {
+    color: rgb(209, 209, 21);
+}
+
+.hero-box i.fa-graduation-cap {
+    color: rgb(173, 44, 120);
+}
+
+.hero-box i.fa-book {
+    color: rgb(116, 116, 187);
+}
+
+.person {
+    max-height: 100px;
+    max-width: 100px;
+
+}
+
+.person img {
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+/* ----------------- */
+/*     Servicess     */
+/* ----------------- */
+
+header .carousel .carousel-inner .carousel-img-two {
+    background-image: url('../img/złobek-header3.jpg.png');
+    object-fit: contain;
+    z-index: 0;
+}
+
+
+
+
+/* ----------------- */
+/*     CONTACT     */
+/* ----------------- */
+
+.contact-hero {
+    background-image: url('../img/contact/shelby-contact.jpg');
+    background-position: 0 40%;
+}
+
+.contact h2,
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: 0.3em .8em;
+    font-size: 2rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+/* ----------------- */
+/*     FOOTER     */
+/* ----------------- */
+footer {
+    font-size: 1.6rem;
+}
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url(../img/car-1081742_1920.jpg);
+    }
+
+    .carousel-img-two {
+        background-image: url(../img/nurburgring-4122443_1920.jpg);
+    }
+
+    .carousel-img-three {
+        background-image: url(../img/nissan-skyline-3546824_1920.jpg);
+    }
+}
 
 
 @-webkit-keyframes block1 {
