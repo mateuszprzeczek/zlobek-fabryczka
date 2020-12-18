@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: -1;
+}
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -66px;
+    height: 66px;
+    content: '';
+}
+
+.additional-text {
+    font-size: 1.8rem;
+}
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+/*     NAWIGACJA     */
+/* ----------------- */
+nav {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* ----------------- */
+/*     HEADER     */
+/* ----------------- */
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url(../img/car-1081742_640.jpg);
+}
+
+.carousel-img-two {
+    background-image: url(../img/nurburgring-4122443_640.jpg);
+}
+
+.carousel-img-three {
+    background-image: url(../img/nissan-skyline-3546824_640.jpg);
+}
+
+/* ----------------- */
+/*     HOME     */
+/* ----------------- */
+.home-boxes {
+    padding: 5rem 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+/* ----------------- */
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url('../img/sunset-685927_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* ----------------- */
+/*     ABOUTUS     */
+/* ----------------- */
+
+.aboutus-hero {
+    background-image: url(../img/highway-2025863_1920.jpg);
+    background-position: bottom;
+}
+
+/* ----------------- */
+
+.aboutus-top {
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+
+.aboutus-info {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* .aboutus-info .container {padding:2em3em;} */
+
+.aboutus-text {
+    padding: 1.8em;
+}
+
+.aboutus-text h3 {
+    margin-bottom: 0.5em;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #007BFF;
+}
+
+.aboutus-text-right {
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    background-image: url('../img/ferrari-458-speciale-3173661_640.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------------- */
+
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.aboutus-bottom .card-body {
+    padding-right: 2rem;
+}
+
+
+
+/* ----------------- */
+/*     SERVICES     */
+/* ----------------- */
+
+.service-hero {
+    background-image: url('../img/colors.png');
+    background-position: 0 75%;
+}
+
+/* ----------------- */
+
+.service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+    background-image: url("../img/box1.jpg");
+}
+
+.service-pricing .box-two {
+    background-image: url('../img/box2.jpg');
+}
+
+.service-pricing .box-three {
+    background-image: url('../img/box3.jpg');
+}
+
+.service-pricing .box-four {
+    background-image: url('../img/box4.jpg');
+}
+
+.service-pricing .box-five {
+    background-image: url("https://ckdfabryczka.pl/wp-content/uploads/2020/02/84786164_181978246487418_339763232015122432_n-300x225.jpg");
+}
+
+.service-pricing .box-six {
+    background-image: url('../img/box-six.jpg');
+}
+
+.service-pricing .box-seven {
+    background-image: url('../img/box-seven.jpg');
+}
+
+.service-pricing .box-eight {
+    background-image: url('../img/box-eight.jpg');
+}
+
+.service-pricing .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.service-pricing h3 {
+    font-weight: bold;
+}
+
+.service-pricing .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+/*     PROJECTS     */
+/* ----------------- */
+
+.projects-hero {
+    background-image: url('../img/projects/project-hero.jpg');
+    background-position: center;
+}
+
+.projects-hero-box {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.projects img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.projects .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+/*     CONTACT     */
+/* ----------------- */
+
+.contact-hero {
+    background-image: url('../img/contact/shelby-contact.jpg');
+    background-position: 0 40%;
+}
+
+.contact h2,
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: 0.3em .8em;
+    font-size: 2rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+/* ----------------- */
+/*     FOOTER     */
+/* ----------------- */
+footer {
+    font-size: 1.6rem;
+}
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url(../img/car-1081742_1920.jpg);
+    }
+
+    .carousel-img-two {
+        background-image: url(../img/nurburgring-4122443_1920.jpg);
+    }
+
+    .carousel-img-three {
+        background-image: url(../img/nissan-skyline-3546824_1920.jpg);
+    }
+}

@@ -13,8 +13,9 @@ html {
 }
 
 body {
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(180deg, rgba(252, 250, 231, 1) 0%, rgba(252, 231, 244, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(252, 250, 231, 1) 0%, rgba(252, 231, 166, 1) 100%);
 }
 
 /* ----------------- */
@@ -145,6 +146,16 @@ header .carousel .carousel-inner .carousel-img-two {
 
 
 
+/* ----------------- */
+/*     gallery     */
+/* ----------------- */
+.gallery {
+    min-height: 100%;
+    position: relative;
+}
+
+
+
 
 /* ----------------- */
 /*     CONTACT     */
@@ -203,7 +214,6 @@ footer {
 
     .aboutus-text {
         padding: 5em 0;
-        transform: skew(-15deg);
     }
 
     .aboutus-text-left {
@@ -218,7 +228,7 @@ footer {
 
     .aboutus-img {
         height: auto;
-        transform: skew(-15deg);
+
 
     }
 

@@ -8,13 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/schedule.css">
     <script src="https://kit.fontawesome.com/ecd344741b.js" crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
     <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container">
-            <a class="navbar-brand px-4" href="#"><i class="fab fa-deezer text-info pr-2"></i>Żłobek<span
+            <a class="navbar-brand px-4" href="/"><i class="fab fa-deezer text-info pr-2"></i>Żłobek<span
                     class="text-primary"> fabryczka</span></a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -27,148 +28,286 @@
                     <a class="nav-link" href="services.html">oferta</a>
                     <a class="nav-link" href="gallery.html">galeria</a>
                     <a class="nav-link active" href="schedule.html">rozkład dnia<span class="sr-only">(current)</span></a>
-                    <a class="nav-link " href="prices.html">cennik
-                        
-                    </a>
-                    <a class="nav-link " href="contact.html">kontakt </a>
+                    <a class="nav-link " href="prices.html">cennik</a>
+                    <a class="nav-link " href="contact.html">kontakt</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <main>
+        <section class="top-hero service-hero">
+            <div class="hero-shadow"></div>
+            <p class="top-hero-text text-light">Rozkład dnia</p>
+        </section>
         <section>
-           <div class="container p-5 bg-secondary text-light fs-2">
+           <div class="container p-5  fs-2">
                <div class="row">
-                   <div class="col">
-                    <ul>
-                        <li><strong>7:00-8:15</strong>
-                   <h4>- schodzenie się dzieci, dowolne zabawy w kącikach zainteresowań, zajęcia higieniczno- porządkowe</h4>
-                   </li>
-                        <li><strong>8:30-9:00</strong>
-                   <h4>- śniadanie</h4>
-                   </li>
-                        <li><strong>9:15-9:45</strong>
-                   <h4>- zajęcia dydaktyczne (ruchowe, muzyczne, plastyczne, wierszyki, rozwijanie wiedzy o otaczającym świecie, zabawy sensoryczne itp.)</h4>
-                   </li>
-                        <li><strong>10:00-10:15</strong>
-                   <h4>- drugie śniadanie</h4>
-                   </li>
-                        <li><strong>10.30-11:15</strong>
-                   <h4>- spacer (w zależności od warunków atmosferycznych)</h4>
-                   </li>
-                        <li><strong>11:30-12:00</strong>
-                   <h4>- zajęcia higieniczno- porządkowe, przygotowanie do obiadu, obiad</h4>
-                   </li>
-                        <li><strong>12:00- 14:00</strong>
-                   <h4>- odpoczynek, słuchanie bajek, muzyki relaksacyjnej</h4>
-                   </li>
-                        <li><strong>14:15</strong>
-                   <h4>- podwieczorek</h4>
-                   </li>
-                        <li><strong>14:45:17:30</strong>
-                   <h4>- zabawy integracyjne, zabawy kołowe, dowolne zabawy w kącikach zainteresowań, zabawy stolikowe, oczekiwanie na rodziców</h4>
-                   </li>
-                   </ul>
-                   </div>
+                <table class="table table-bordered border-danger">
+                    <tbody>
+                        <tr class="table-danger">
+                          <th scope="row">7:00-8:15</th>
+                          <td>schodzenie się dzieci, dowolne zabawy w kącikach zainteresowań, zajęcia higieniczno- porządkowe</td>
+                        </tr>
+                        <tr class="table-secondary">
+                          <th scope="row">8:30-9:00</th>
+                          <td>śniadanie</td>
+                        </tr>
+                        <tr class="table-warning">
+                          <th scope="row">9:15-9:45</th>
+                          <td>zajęcia dydaktyczne (ruchowe, muzyczne, plastyczne, wierszyki, rozwijanie wiedzy o otaczającym świecie, zabawy sensoryczne itp.)</td>
+                        </tr>
+                        <tr class="table-primary">
+                          <th scope="row">10:00-10:15</th>
+                          <td>drugie śniadanie</td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row">10.30-11:15</th>
+                          <td>spacer (w zależności od warunków atmosferycznych)</td>
+                        </tr>
+                        <tr class="table-success">
+                          <th scope="row">11:30-12:00</th>
+                          <td>zajęcia higieniczno- porządkowe, przygotowanie do obiadu, obiad</td>
+                        </tr>
+                        <tr class="table-warning">
+                          <th scope="row">12:00-14:00</th>
+                          <td>odpoczynek, słuchanie bajek, muzyki relaksacyjnej</td>
+                        </tr>
+                        <tr class="table-secondary">
+                          <th scope="row">14:15</th>
+                          <td>podwieczorek</td>
+                        </tr>
+                        <tr class="table-danger">
+                          <th scope="row">14:45:17:30</th>
+                          <td>zabawy integracyjne, zabawy kołowe, dowolne zabawy w kącikach zainteresowań, zabawy stolikowe, oczekiwanie na rodziców</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                  
                </div>
            </div>
-           <div class="container p-5 fs-2">
-               <div class="jumbotron">
-                   <div class="row">
-                       <div class="col">
-                        <em><strong>W naszym żłobku poza zabawami dowolnymi staramy się ukierunkować dzieci pod kątem różnych aktywności, odkrywać ich talenty, stymulować wszystkie obszary mózgu. W tym celu każdego dnia proponujemy naszym maluszkom inne ciekawe zajęcia.</strong></em>
-                        <h3 style="color: blue;"><strong>Hasankowe poniedziałki</strong></h3>
-                        <h3><strong> <img class="size-medium wp-image-1863 alignleft" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/hasankowe-poniedziałki-300x168.jpg" alt="" width="300" height="168" /></strong></h3>
-                        &nbsp;
-                        
-                        <strong>Poniedziałek to najlepszy czas, żeby się rozruszać po weekendzie. Podczas Hasanek stymulujemy całe ciało. Ćwiczymy koordynację ruchową, skaczemy, bawimy się na czworaka w tunelach animacyjnych, wykorzystujemy liny, hula-hop, woreczki, ścieżki sensoryczne.</strong>
-                        <h3></h3>
-                        <h3></h3>
-                        <h3 style="color: blue; text-align: right;"><strong>Plastyczne wtorki</strong></h3>
-                        <img class="size-medium wp-image-1866 alignright" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/plastyczne-wtorki-225x300.jpg" alt="" width="225" height="300" />
-                        
-                        &nbsp;
-                        
-                        <strong>We wtorki stawiamy na rozwój artystyczny. Wykonujemy prace plastyczne korzystając z przeróżnych technik. Malujemy farbami na dużych powierzchniach, wykorzystując nie tylko pędzle, ale także balony napełnione wodą, kolorowe piłki, patyczki higieniczne i co tam nam jeszcze przyjdzie do głowy. Wyklejamy plasteliną, bibułą, ryżem, watą itp. Nasza wyobraźnia nie ma ograniczeń.</strong>
-                        <h2></h2>
-                        <h2></h2>
-                        <h3 style="color: blue;"><strong>Muzyczne środy</strong></h3>
-                        <img class="size-medium wp-image-1864 alignleft" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/muzyczne-środy-169x300.jpg" alt="" width="169" height="300" />
-                        
-                        &nbsp;
-                        
-                        &nbsp;
-                        
-                        <strong>Środa to czas muzyki. Gitara, keybord, grzechotki, kastaniety to tylko niektóre towarzyszące nam instrumenty. Gramy również na nietypowych przedmiotach: pudełkach, puszkach, foliowych woreczkach itp. Sami również tworzymy instrumenty z plastikowych jajek, łyżek, pustych pudełek. Słuchamy muzyki poważnej, tańczymy z kolorowymi chustkami, uczymy się piosenek i popularnych zabaw kołowych.</strong>
-                        <h3></h3>
-                        <h3></h3>
-                        <h3></h3>
-                        <h3 style="color: blue; text-align: right;"><strong>Taplankowe czwartki</strong></h3>
-                        <img class="size-medium wp-image-1868 alignright" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/taplankowe-czwartki-300x225.jpg" alt="" width="300" height="225" />
-                        
-                        &nbsp;
-                        
-                        <strong>W czwartki nie zapomnijcie o ubraniach na zmianę, gdyż będzie bardzo wesoło, ale również bardzo brudno. Podczas taplanek bawimy się mąką, solą, ryżem, płatkami owsianymi, kukurydzą. Tworzymy przeróżne masy plastyczne z kaszy mammy, marchewki, mąki ziemniaczanej. To doskonały sposób na ćwiczenie rączek, które podczas zabawy przygotowują się do dalszej nauki pisania.</strong>
-                        
-                        &nbsp;
-                        <h3></h3>
-                        <h3 style="color: blue;"><strong>Rozwojowe piątki</strong></h3>
-                        <img class="size-medium wp-image-1867 alignleft" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/rozwojowe-piątki-300x169.jpg" alt="" width="300" height="169" />
-                        
-                        &nbsp;
-                        
-                        <strong>W piątki rozwijamy wszystkie zmysły. Budujemy konstrukcje z klocków, układamy szeregi, dobieramy przedmioty w pary, poznajemy zapachy, smaki, wyszukujemy przedmioty po dotyku. Piątek to też czas budowania pozytywnych relacji w grupie, nauka zasad wspólnej zabawy, przygotowania do łatwiejszego startu w przedszkolu.</strong>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="container bg-secondary text-light p-5">
-               <div class="row">
-                   <div class="col fs-2">
-                    <h2 style="color: blue;"><strong>RYTMIKA W J. ANGIELSKIM</strong></h2>
-                    <strong>W każdy czwartek o godzinie 09:30, w naszym żłobku odbywają się zajęcia z rytmiki.</strong>
-                    <strong>Zajęcia trwają 30 min. Koszt zajęć wliczony jest w czesne.</strong>
-                    
-                    <img class="size-medium wp-image-1872 alignleft" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/84786164_181978246487418_339763232015122432_n-300x225.jpg" alt="" width="300" height="225" />
-                    
-                    <strong>Rytmika</strong> jest to metoda stosowana w profilaktyce logopedycznej. Łączy w sobie zarówno elementy  rytmiki  jak  i  oddziaływania logopedyczne.  Głównym  jej  celem  jest stymulowanie rozwoju funkcji związanych z mową, a przy tym uwrażliwienie na cechy wspólne muzyki i mowy, takie jak: rytm, melodia, tempo, dynamika, barwa dźwięku.
-                    
-                    <strong>Ćwiczenia</strong>:
-                    
-                    - rozwijają umiejętności sprawnego wykonywania ćwiczeń ruchowych
-                    - pomagają w orientowaniu się w czasie i przestrzeni,
-                    - sprzyjają poprawie koncentracji uwagi,
-                    - stymulują sprawniejsze myślenie,
-                    - spełniają funkcje uspołeczniające i wychowawcze
-                    - kształtują zdyscyplinowanie, porządek, poczucie odpowiedzialności
-                    - rozwijają umiejętność współdziałania w grupie
-                    - kształtują inwencję twórczą dziecka
-                    - uwrażliwiają na zjawiska akustyczne,
-                    - zmniejszają i likwidują zaburzenia mowy
-                    - usprawniają aparat mięśniowo -ruchowy
-                    <h2 style="color: black; padding: 15px;"><strong>DOGOTERAPIA</strong></h2>
-                    <strong>Raz w miesiącu odbywają się zajęcia z dogoterapii. Koszt zajęć wliczony jest w czesne.</strong>
-                    
-                    <img class="size-medium wp-image-1855 alignleft" src="https://ckdfabryczka.pl/wp-content/uploads/2020/02/dogoterapia-225x300.jpg" alt="" width="225" height="300" />
-                    
-                    <strong>Celem zajęć jest:</strong>
-                    
-                    - uczenie podstawowych zasad zachowania przy psie,
-                    - rozwijanie zdolności i empatii u dzieci i poszanowania dla zwierząt,
-                    - zajęcia uczą koncentracji, pracy w grupach, współdziałania z innymi,
-                    u dzieci młodszych wspomagają rozwój mowy i komunikacji zarówno z psem jak i z innymi dziećmi,
-                    - zajęcia rozwijają sferę emocji.
-                    
-                    <strong>Zajęcia</strong> prowadzi <strong>Ewa</strong> <strong>K.</strong> <strong>Curyło</strong> (pedagog, oligofrenopedagog z wykształceniem: studia magisterskie i podyplomowe – Wyższa Szkoła Pedagogiczna w Krakowie, nauczyciel I mianowany od 1994 roku), z udziałem 4,5-letniego psa rasy golden retriever, o imieniu Topsel.
-                    <div class="gs">
-                    <div class="">
-                    <div class="hi"></div>
+
+
+
+           
+
+        <section class="py-5 service-pricing">
+            <div class="container">
+                <div class="py-5 text-center">
+                    <p class="display-3">Plan Zajęć</p>
+                    <p class="additional-text">W naszym żłobku poza zabawami dowolnymi staramy się ukierunkować dzieci pod kątem różnych aktywności, odkrywać ich talenty, stymulować wszystkie obszary mózgu. W tym celu każdego dnia proponujemy naszym maluszkom inne ciekawe zajęcia.</p>
+                </div>
+                <div class="row">
+
+
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Hasankowe poniedziałki</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <div class="card-header text-center py-4">Rozwiń opis  <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseOne" class="collapse" data-bs-target="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Poniedziałek to najlepszy czas, żeby się rozruszać po weekendzie. Podczas Hasanek stymulujemy całe ciało. Ćwiczymy koordynację ruchową, skaczemy, bawimy się na czworaka w tunelach animacyjnych, wykorzystujemy liny, hula-hop, woreczki, ścieżki sensoryczne.</p>
+                                       
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc2">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-two">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Plastyczne wtorki</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-bs-target="#acc2">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>We wtorki stawiamy na rozwój artystyczny. Wykonujemy prace plastyczne korzystając z przeróżnych technik. Malujemy farbami na dużych powierzchniach, wykorzystując nie tylko pędzle, ale także balony napełnione wodą, kolorowe piłki, patyczki higieniczne i co tam nam jeszcze przyjdzie do głowy. Wyklejamy plasteliną, bibułą, ryżem, watą itp. Nasza wyobraźnia nie ma ograniczeń.</p>
+            
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   </div>
-               </div>
-           </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc3">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-three">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Muzyczne środy</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#acc3">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Środa to czas muzyki. Gitara, keybord, grzechotki, kastaniety to tylko niektóre towarzyszące nam instrumenty. Gramy również na nietypowych przedmiotach: pudełkach, puszkach, foliowych woreczkach itp. Sami również tworzymy instrumenty z plastikowych jajek, łyżek, pustych pudełek. Słuchamy muzyki poważnej, tańczymy z kolorowymi chustkami, uczymy się piosenek i popularnych zabaw kołowych.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc4">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-four">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Taplankowe czwartki</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#acc4">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>W czwartki nie zapomnijcie o ubraniach na zmianę, gdyż będzie bardzo wesoło, ale również bardzo brudno. Podczas taplanek bawimy się mąką, solą, ryżem, płatkami owsianymi, kukurydzą. Tworzymy przeróżne masy plastyczne z kaszy mammy, marchewki, mąki ziemniaczanej. To doskonały sposób na ćwiczenie rączek, które podczas zabawy przygotowują się do dalszej nauki pisania.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc5">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-five">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Rozwojowe piątki</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                                    aria-controls="collapseFive">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseFive" class="collapse" data-parent="#acc5">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>W piątki rozwijamy wszystkie zmysły. Budujemy konstrukcje z klocków, układamy szeregi, dobieramy przedmioty w pary, poznajemy zapachy, smaki, wyszukujemy przedmioty po dotyku. Piątek to też czas budowania pozytywnych relacji w grupie, nauka zasad wspólnej zabawy, przygotowania do łatwiejszego startu w przedszkolu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc6">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-six">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">RYTMIKA W J. ANGIELSKIM</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                                    aria-controls="collapseSix">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseSix" class="collapse" data-parent="#acc6">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Rytmika jest to metoda stosowana w profilaktyce logopedycznej. Łączy w sobie zarówno elementy  rytmiki  jak  i  oddziaływania logopedyczne.  Głównym  jej  celem  jest stymulowanie rozwoju funkcji związanych z mową, a przy tym uwrażliwienie na cechy wspólne muzyki i mowy, takie jak: rytm, melodia, tempo, dynamika, barwa dźwięku.</p>
+                                        <h3 class="mt-5">Ćwiczenia: </h3>
+                                        <p>- rozwijają umiejętności sprawnego wykonywania ćwiczeń ruchowych
+                                            - pomagają w orientowaniu się w czasie i przestrzeni,
+                                            - sprzyjają poprawie koncentracji uwagi,
+                                            - stymulują sprawniejsze myślenie,
+                                            - spełniają funkcje uspołeczniające i wychowawcze
+                                            - kształtują zdyscyplinowanie, porządek, poczucie odpowiedzialności
+                                            - rozwijają umiejętność współdziałania w grupie
+                                            - kształtują inwencję twórczą dziecka
+                                            - uwrażliwiają na zjawiska akustyczne,
+                                            - zmniejszają i likwidują zaburzenia mowy
+                                            - usprawniają aparat mięśniowo -ruchowy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc7">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-seven">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Dogoterapia</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true"
+                                    aria-controls="collapseSeven">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseSeven" class="collapse" data-parent="#acc7">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Celem zajęć jest:</h3>
+                                        <p>- uczenie podstawowych zasad zachowania przy psie,
+                                            - rozwijanie zdolności i empatii u dzieci i poszanowania dla zwierząt,
+                                            - zajęcia uczą koncentracji, pracy w grupach, współdziałania z innymi,
+                                            u dzieci młodszych wspomagają rozwój mowy i komunikacji zarówno z psem jak i z innymi dziećmi,
+                                            - zajęcia rozwijają sferę emocji.</p>
+
+                                        <h3 class="mt-5">Prowadzący: </h3>
+                                        <p>Zajęcia prowadzi Ewa K.Curyło (pedagog, oligofrenopedagog z wykształceniem: studia magisterskie i podyplomowe – Wyższa Szkoła Pedagogiczna w Krakowie, nauczyciel I mianowany od 1994 roku), z udziałem 4,5-letniego psa rasy golden retriever, o imieniu Topsel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="acc8">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-eight">
+                                    <div class="hero-shadow"></div>
+                                    <p class="h-100 text-white text-center p-3">Urodziny</p>
+                                </div>
+                                <div data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"
+                                    aria-controls="collapseEight">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseEight" class="collapse" data-parent="#acc8">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Urodziny są jednym z najważniejszych dni w życiu naszych Maluszków. Z tej okazji w Fabryczce będziemy świętować ten ważny dzień. W ramach urodzin przewidziane są dekoracje, balony, poczęstunek przygotowany przez naszych wychowawców, oparty na zdrowych przekąskach (owoce, chrupki kukurydziane, ciateczka zbożowe) oraz mini babeczce ze świeczką dla Solenizatna. Dodatkowo, jak na urodziny przystało, wręczony zostanie prezent oraz odśpiewane STO LAT!
+                                            Organizacja urodzin zawarta jest w czesnym i w pełni przygotowana przez Żłobek.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-5 text-center">W każdy czwartek o godzinie 09:30, w naszym żłobku odbywają się zajęcia z rytmiki.
+                    Zajęcia trwają 30 min. Koszt zajęć wliczony jest w czesne.</p>
+                <hr>
+                <p class="text-muted text-center">Raz w miesiącu odbywają się zajęcia z dogoterapii. Koszt zajęć wliczony jest w czesne.</p>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+          
         </section>
     </main>
 
