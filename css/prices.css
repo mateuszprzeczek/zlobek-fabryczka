@@ -1,5 +1,15 @@
 body {
+    height: 100vh;
     background-image: url('../img/colors.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 300px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 1.6rem;
+    }
 }
