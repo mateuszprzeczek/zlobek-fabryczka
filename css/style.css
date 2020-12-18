@@ -201,7 +201,16 @@ footer {
     font-size: 1.6rem;
 }
 
+
 @media (min-width:992px) {
+    a.nav-link {
+        font-size: 1.6rem;
+    }
+
+    .display-1 {
+        font-size: 4rem;
+    }
+
     .aboutus-info .container {
         padding: 0;
     }
