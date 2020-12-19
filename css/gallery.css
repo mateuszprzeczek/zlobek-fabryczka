@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 700px) {
     footer {
         position: absolute;
         bottom: 0;

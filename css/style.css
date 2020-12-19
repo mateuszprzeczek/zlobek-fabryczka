@@ -64,6 +64,10 @@ header .container {
     z-index: 0;
 }
 
+.display-1 {
+    font-size: 4rem;
+}
+
 .jumbotron {
     height: 100%;
     max-width: 1140px;
@@ -201,15 +205,20 @@ footer {
     font-size: 1.6rem;
 }
 
+@media (max-width: 700px) {
+    .title {
+        margin-left: 30px;
+        padding-left: 22px;
+    }
+}
+
 
 @media (min-width:992px) {
     a.nav-link {
         font-size: 1.6rem;
     }
 
-    .display-1 {
-        font-size: 4rem;
-    }
+
 
     .aboutus-info .container {
         padding: 0;
@@ -436,7 +445,7 @@ footer {
     display: block;
     width: 240px;
     height: 200px;
-    margin: 64px auto 30px 45px;
+    margin: 64px auto 15px 45px;
 }
 
 
